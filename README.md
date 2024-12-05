@@ -1,6 +1,6 @@
-* Epson Projector Power Control
+# Epson Projector Power Control
 
-A very simple script for controlling the power of Epson network connected projectors supported by the (epson_projector)[https://github.com/pszafer/epson_projector] library.
+A very simple script for controlling the power of Epson network connected projectors supported by the [epson_projector](https://github.com/pszafer/epson_projector) library.
 
 ```
 $ epsonctl --help
