@@ -39,7 +39,3 @@ async def cli(config, power_state):
     async with aiohttp.ClientSession(auth=auth) as session:
         projector = epson.Projector(host=cfg['hostname'], websession=session)
         await projector.send_command(state)
-
-
-if __name__ == '__main__':
-    cli()
