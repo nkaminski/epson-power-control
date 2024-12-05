@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "epson_power_control"
+version = "0.0.1"
+authors = [{name="Nash Kaminski", email="nashkaminski@kaminski.io" }]
+description = "Simple HTTP client for controlling the power state of Epson projectors"
+readme = "README.md"
+requires-python = ">=3.9"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.scripts]
+epsonctl = "epson_power_control:cli"

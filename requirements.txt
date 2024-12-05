@@ -1,0 +1,5 @@
+aiofiles
+aiohttp
+click
+epson_projector@git+https://github.com/mvdwetering/epson_projector.git@a88b20e172dd4b6774529b1d53da5701640dbff0
+pyyaml
